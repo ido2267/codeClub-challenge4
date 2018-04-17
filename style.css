@@ -1,0 +1,75 @@
+span
+{
+	display: inline-block; 
+	margin: 8px; 
+	box-shadow: 1px 2px 2px grey; 
+}
+
+body {
+  background-color: white;
+	padding: 30px;
+	max-width: 350px;
+	margin: auto;
+}
+
+.newspaper {
+	background-color: antiquewhite;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	}
+
+.magazine1  {
+   	background-image: url('computer-printout-paper.png');
+  color:black;
+  font-family: VT323;
+	font-weight: 900;
+	text-transform: uppercase; 
+}
+
+.magazine2 {
+	background-image: url('pink-pattern.png');
+  color: fuchsia;
+  font-family: arimo;
+	font-weight: 900;
+}
+.MyStyle{
+  background-image: url('rough-paper.png');
+  background-color: #FFA07A;
+  color:black;
+font-family: 'Gugi'  ;
+}
+.comic{
+  background-color: #FFA07A;
+  color:black;
+font-family: 'Bangers'  ;
+}
+.medium {
+	font-size: 20px;
+	padding: 8px;
+}
+
+.big {
+	font-size: 30px;
+	padding: 10px;
+}
+
+.reallybig {
+	font-size: 40px;
+	padding: 15px;
+}
+
+.rotateleft {
+	transform: rotate(-15deg);
+}
+
+.rotateright {
+	transform: rotate(20deg);
+}
+
+.skewleft {
+	transform: skewX(30deg);
+}
+
+.skewright {
+	transform: skewX(-20deg);
+}
